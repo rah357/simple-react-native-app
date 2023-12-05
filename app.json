@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "StickerSmash",
+    "name": "Flodi Bazar",
     "slug": "StickerSmash",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.macuapps.StickerSmash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.macuapps.StickerSmash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2640c40c-58e7-4984-8203-3b5f317b9bf2"
+      }
     }
   }
 }
